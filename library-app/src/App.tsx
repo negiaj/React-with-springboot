@@ -6,16 +6,18 @@ import Carousel from './layouts/HomePage/Carousel';
 import { Heros } from './layouts/HomePage/Heros';
 import { LibraryServices } from './layouts/HomePage/LibraryServices';
 import { Footer } from './layouts/HomePage/Footer';
+import AppService from './layouts/HomePage/AppService';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <ExploreTopBooks/>
-      <Carousel/>
-      <Heros/>
+      {/* <Navbar/>
+      <ExploreTopBooks/> */}
+      {/* <Carousel/> */}
+      <AppService/>
+      {/* <Heros/>
       <LibraryServices/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
